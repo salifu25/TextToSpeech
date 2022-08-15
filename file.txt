@@ -1,0 +1,31 @@
+ //System.out.println(menu);
+
+            // reading the text line by line
+           /* Scanner scanner = new Scanner(parsedText);
+            while(scanner.hasNextLine()){
+                String line = scanner.nextLine();
+                String[] lines = line.split(".");
+                ArrayList<String> menu = new ArrayList<String>();
+                for (String i:lines) {
+                    menu.add(line);
+                    System.out.println(menu);
+                }
+
+
+            }*/
+
+            // Creation of the text document
+           /* String name = "files.txt";
+            CreateFile(name);
+            PrintWriter pw = new PrintWriter(name);
+            System.out.println(pw);
+            pw.print(parsedText);
+            pw.close();
+
+            // read text from
+            File myFile = new File(name);
+            Scanner reader = new Scanner(myFile);
+            while (reader.hasNextLine()){
+                String data = reader.nextLine();
+                //TTs(data);
+                System.out.println(data);
